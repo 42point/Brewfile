@@ -1,3 +1,5 @@
+tap "dart-lang/dart"
+tap "federico-terzi/espanso"
 tap "getsentry/tools"
 tap "homebrew/bundle"
 tap "homebrew/cask"
@@ -5,80 +7,66 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
-# Shell extension to jump to frequently used directories
+tap "sass/sass"
 brew "autojump"
-# Programmable completion for Bash 3.2
 brew "bash-completion"
-# Connect and disconnect Bluetooth devices
 brew "bluetoothconnector"
-# Fish completion for brew-cask
 brew "brew-cask-completion"
-# Library for manipulating PNG images
 brew "libpng"
-# Emacs dependency management
+brew "openssl@1.1"
 brew "cask"
-# Image manipulation library
 brew "jpeg"
-# VP8/VP9 video codec
 brew "libvpx"
-# Play, record, convert, and stream audio and video
 brew "ffmpeg"
-# Extensions to follow Vincent Driessen's branching model
 brew "git-flow"
-# GNU version of the tar archiving utility
 brew "gnu-tar"
-# Tools and libraries to manipulate images in many formats
 brew "imagemagick"
-# Version of the SSL/TLS protocol forked from OpenSSL
+brew "openjdk@11"
+brew "jenkins-lts"
 brew "libressl"
-# Mac App Store command-line interface
 brew "mas"
-# Terminal-based visual file manager
 brew "midnight-commander"
-# Platform built on V8 to build network applications
 brew "node"
-# Trigger notifications when a process completes
 brew "noti"
-# SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension
+brew "openjdk"
 brew "openvpn", restart_service: true
-# Ruby version manager
-brew "rbenv"
-# Rsync for cloud storage
 brew "rclone"
-# Powerful, clean, object-oriented scripting language
 brew "ruby"
-# Tool to enforce Swift style and conventions
 brew "swiftlint"
-# User interface to the TELNET protocol
 brew "telnet"
-# Display directories as trees (with optional color/HTML output)
+brew "tldr"
 brew "tree"
-# JavaScript package manager
+brew "wget"
 brew "yarn"
-# Dumb downloader that scrapes the web
 brew "you-get"
-# Download YouTube videos from the command-line
 brew "youtube-dl"
-# UNIX shell (command interpreter)
 brew "zsh"
-# Additional completion definitions for zsh
 brew "zsh-completions"
-# Sentry command-line client for some generic tasks
+brew "federico-terzi/espanso/espanso"
 brew "getsentry/tools/sentry-cli"
 cask "1password"
 cask "4k-stogram"
+cask "adoptopenjdk8"
 cask "aerial"
 cask "alfred"
 cask "android-file-transfer"
+cask "android-sdk"
+cask "android-studio"
+cask "androidtool"
+cask "anydesk"
 cask "appcleaner"
 cask "atom"
 cask "basecamp"
 cask "cakebrew"
+cask "calibre"
+cask "codekit"
 cask "colorpicker-skalacolor"
 cask "cyberduck"
 cask "daisydisk"
 cask "dash"
+cask "devonagent"
 cask "devonthink-pro-office"
+cask "docker"
 cask "dropbox"
 cask "droplr"
 cask "encryptme"
@@ -87,14 +75,17 @@ cask "figma"
 cask "findings"
 cask "firefox"
 cask "fliqlo"
+cask "font-droid-sans-mono-nerd-font"
 cask "font-hack-nerd-font"
 cask "font-lobster"
 cask "font-museo"
+cask "font-poppins"
 cask "font-quicksand"
 cask "font-roboto"
 cask "font-roboto-condensed"
 cask "font-source-code-pro"
 cask "fontbase"
+cask "fork"
 cask "forklift"
 cask "framer-modules"
 cask "framer-x"
@@ -113,8 +104,10 @@ cask "iina"
 cask "iterm2"
 cask "itsycal"
 cask "java"
+cask "java11"
 cask "jeromelebel-mongohub"
 cask "krisp"
+cask "local"
 cask "mamp"
 cask "manuscripts"
 cask "miro-formerly-realtimeboard"
@@ -122,11 +115,13 @@ cask "movist-pro"
 cask "notion"
 cask "noun-project"
 cask "numi"
+cask "obsidian"
 cask "omnigraffle"
 cask "omniplan"
 cask "origami-studio"
 cask "outline-manager"
 cask "pdf-expert"
+cask "postbox"
 cask "provisioning"
 cask "pycharm"
 cask "qlmarkdown"
@@ -138,6 +133,7 @@ cask "relativewave-form"
 cask "renamer"
 cask "resilio-sync"
 cask "robo-3t"
+cask "rocket-chat"
 cask "rotato"
 cask "send-to-kindle"
 cask "simplenote"
@@ -180,7 +176,7 @@ mas "External Editors For Photos", id: 1074021862
 mas "FlowVPN", id: 1208164242
 mas "Geekbench 3", id: 686096588
 mas "Gemini 2", id: 1090488118
-mas "GhosteryLite", id: 1436953057
+mas "Ghostery Lite", id: 1436953057
 mas "GIF Brewery", id: 435989461
 mas "GIPHY CAPTURE", id: 668208984
 mas "iA Writer", id: 775737590
@@ -191,23 +187,21 @@ mas "Magnet", id: 441258766
 mas "Microsoft Excel", id: 462058435
 mas "MindNode", id: 992076693
 mas "Monity", id: 915542151
-mas "Movist", id: 461788075
 mas "Numbers", id: 409203825
 mas "Outline", id: 1356178125
 mas "OutlineEdit", id: 878995413
 mas "Pages", id: 409201541
 mas "Patterns", id: 429449079
 mas "PicGIF Lite", id: 844918735
-mas "Pixave", id: 924891282
 mas "Pixelmator Pro", id: 1289583905
 mas "Pocket", id: 568494494
 mas "QREncoder", id: 452695239
-mas "Quiver", id: 866773894
 mas "Sip", id: 507257563
 mas "Slack", id: 803453959
 mas "SnippetsLab", id: 1006087419
-mas "Soulver", id: 413965349
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
+mas "Tomato One", id: 907364780
+mas "Transporter", id: 1450874784
 mas "Wire", id: 931134707
 mas "Xcode", id: 497799835
