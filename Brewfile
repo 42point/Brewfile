@@ -8,12 +8,12 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "sass/sass"
+brew "openssl@1.1"
 brew "autojump"
 brew "bash-completion"
 brew "bluetoothconnector"
 brew "brew-cask-completion"
 brew "libpng"
-brew "openssl@1.1"
 brew "cask"
 brew "jpeg"
 brew "libvpx"
@@ -37,7 +37,7 @@ brew "telnet"
 brew "tldr"
 brew "tree"
 brew "wget"
-brew "yarn"
+brew "yarn", link: false
 brew "you-get"
 brew "youtube-dl"
 brew "zsh"
@@ -179,26 +179,30 @@ mas "Gemini 2", id: 1090488118
 mas "Ghostery Lite", id: 1436953057
 mas "GIF Brewery", id: 435989461
 mas "GIPHY CAPTURE", id: 668208984
+mas "Honey", id: 1472777122
 mas "iA Writer", id: 775737590
+mas "Jayson", id: 1468691718
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "Mactracker", id: 430255202
 mas "Magnet", id: 441258766
 mas "Microsoft Excel", id: 462058435
 mas "MindNode", id: 992076693
-mas "Monity", id: 915542151
 mas "Numbers", id: 409203825
 mas "Outline", id: 1356178125
 mas "OutlineEdit", id: 878995413
 mas "Pages", id: 409201541
 mas "Patterns", id: 429449079
+mas "Phiewer", id: 1226444549
 mas "PicGIF Lite", id: 844918735
+mas "Picsort", id: 1478475254
 mas "Pixelmator Pro", id: 1289583905
 mas "Pocket", id: 568494494
 mas "QREncoder", id: 452695239
 mas "Sip", id: 507257563
 mas "Slack", id: 803453959
 mas "SnippetsLab", id: 1006087419
+mas "System Designer", id: 1102494854
 mas "The Unarchiver", id: 425424353
 mas "Things", id: 904280696
 mas "Tomato One", id: 907364780
